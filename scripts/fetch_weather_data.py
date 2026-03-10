@@ -13,12 +13,23 @@ def main():
 
     logging.info("Weather pipeline started")
 
-    cities = {
-        "Delhi": (28.61, 77.23),
-        "Mumbai": (19.07, 72.87),
-        "London": (51.50, -0.12),
-        "New York": (40.71, -74.00)
-    }
+cities = {
+    "Delhi": (28.61, 77.23),
+    "Mumbai": (19.07, 72.87),
+    "Bangalore": (12.97, 77.59),
+    "Chennai": (13.08, 80.27),
+    "Kolkata": (22.57, 88.36),
+    "Hyderabad": (17.38, 78.48),
+    "London": (51.50, -0.12),
+    "Paris": (48.85, 2.35),
+    "Berlin": (52.52, 13.40),
+    "Rome": (41.90, 12.49),
+    "Madrid": (40.41, -3.70),
+    "New York": (40.71, -74.00),
+    "Los Angeles": (34.05, -118.24),
+    "Toronto": (43.65, -79.38),
+    "Tokyo": (35.67, 139.69)
+}
 
     weather_data = []
 
@@ -52,4 +63,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
