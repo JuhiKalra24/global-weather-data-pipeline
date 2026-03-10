@@ -15,6 +15,8 @@ The pipeline extracts weather information for multiple cities, transforms the da
 - SQL
 - psycopg2-binary
 - Power BI
+- Logging
+- API Integration
 
 ## Project Architecture
 
@@ -28,6 +30,13 @@ Weather API → Python Script → Data Processing → PostgreSQL → Power BI Da
 4. Perform SQL analysis on weather trends.
 5. Visualize results using Power BI.
 
+## Features
+- Automated weather data extraction using API
+- Multi-city weather monitoring
+- Data quality checks
+- Logging for pipeline monitoring
+- Dataset generation for analytics
+
 ## Example Dataset
 
 | timestamp | city | temperature | windspeed |
@@ -37,6 +46,7 @@ Weather API → Python Script → Data Processing → PostgreSQL → Power BI Da
 
 ## Future Improvements
 
-- Automate the pipeline using scheduling tools.
+- Store data in PostgreSQL
 - Store data in cloud databases.
+
 - Build real-time dashboards.
